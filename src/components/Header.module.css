@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 40px;
+  border-bottom: 1px solid #eee;
+  background-color: #FFE600;
+}
+
+.logo {
+  flex-basis: 20%; 
+  font-size: 25px;
+  font-weight: bold;
+  color: #2C3176;
+}
+
+.navbarContainer {
+  flex-basis: 60%; 
+  text-align: center;
+}
+
+.iconsContainer {
+  flex-basis: 20%; 
+  display: flex;
+  justify-content: flex-end; 
+  gap: 20px; 
+}
+
+.iconoDeCarrito {
+  position: relative;
+  cursor: pointer;
+}
+
+
+.icono {
+  font-size: 24px;
+  cursor: pointer;
+}

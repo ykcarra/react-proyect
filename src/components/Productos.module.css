@@ -1,0 +1,44 @@
+h2{
+    padding-left: 8rem;
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 2rem;
+    margin: 0 7%;
+    
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #6A1919;
+    font-size: 1.1rem;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid rgb(190, 190, 210);
+    padding: 3rem;
+}
+.items:hover{
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #D9E7FA;
+    border-radius: 3px;
+    width: 50%;
+    padding:0.15rem;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #d0e0f8;
+}
+
